@@ -11,7 +11,8 @@ Preconditions - You have cloned this repository to your device.
 
 Selenium UI tests. 
 In order to run Selenium UI tests: 
-1. 
-2. 
+1. Download file "Animal";
+2. Open it as an exiting project via Selenium IDE web extension;
+3. Run the tests.
 
 You can find test reports "BugReport" and "SmokeTest" in Reports folder.
