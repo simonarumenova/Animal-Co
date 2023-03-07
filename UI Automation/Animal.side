@@ -1,0 +1,1818 @@
+{
+  "id": "1e5f828a-05e8-47d5-99d7-75ae53c7633c",
+  "version": "2.0",
+  "name": "Animal",
+  "url": "https://www.animal.co.uk/",
+  "tests": [{
+    "id": "d7f4df81-e27d-4ab4-b5e0-cf777611ead8",
+    "name": "TC2",
+    "commands": [{
+      "id": "5807b12b-e2b8-41d5-bea0-3aea05313338",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b398a62-5864-465d-a463-e4699de06028",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f366b75-2ecb-4902-ba40-402e1d5ad353",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9b02b3a5-453f-41d9-8892-2a3edce00cb0",
+    "name": "TC4",
+    "commands": [{
+      "id": "15067d8e-b133-496e-a670-eacb410bba4d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a5b07bd-5884-40eb-8e7c-942e70b8232e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2e4951d-f611-41bf-9bce-3d078b112b6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc0e8514-e5d0-4ae8-a76e-8be6628404b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "232c4fd8-c469-40fe-bb32-297fc5b3d5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cartToggle svg",
+      "targets": [
+        ["css=#cartToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95b1bbc-fe77-4b1e-8740-da86e54f7e0e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "76d68f9b-275b-4901-ac78-4fe989f21f39",
+    "name": "TC5",
+    "commands": [{
+      "id": "c949c526-2d39-464d-88fb-aa854e3e18a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cbb2fa8-09c9-4048-8bee-5a3c4ae19023",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4896c9c-072d-4457-a687-ee0eb5400297",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0836f119-2650-4c7b-9c4e-da3061982552",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fca10d-5039-4f69-b1a7-e0c89bc6fb34",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d126f386-8ea9-49ac-bf98-2b93591dfab1",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "Симона"
+    }, {
+      "id": "79cd0fbc-a445-42c8-8280-e2158e35049b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de9870da-1be8-4834-a83e-8248794429ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "симона@абв.бг"
+    }, {
+      "id": "2f6c5f5f-cfde-45a6-a082-07f40b518728",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5514cf-b39a-432b-a110-853f887c8005",
+      "comment": "",
+      "command": "type",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "Симона98"
+    }, {
+      "id": "3b00fb41-d008-4975-99ba-b581f22b780c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-pd > .button",
+      "targets": [
+        ["css=.no-pd > .button", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f78b8e3-8a8e-4e27-8d96-e4873a731539",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-pd > .button",
+      "targets": [
+        ["css=.no-pd > .button", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b10e38-1487-46e1-a719-4e515242fb0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0f1d6a-bb4c-4f8e-a746-9ff1f94422f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d681b25f-e999-4b92-9c4d-02ef94dd7e8e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2964e734-3796-4a7c-a6d2-5d6ba8a1b390",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79dfaf56-a1df-4ce8-aafd-bda17a224f84",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0487f4e2-5bc3-4a39-b034-48bdc11bad65",
+    "name": "TC6",
+    "commands": [{
+      "id": "f851d0cb-11e3-4666-b521-ed1768572edc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e7daf31-be86-4b32-8a9b-35a5a480e1ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3973bae-1ac5-4087-a307-ce911ff4a59f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle path",
+      "targets": [
+        ["css=#userToggle path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade6f020-5cb9-4f48-b226-8b4403bbad75",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae8bb9f-5ba4-4f30-8205-6bf361990faa",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ca6a4ce-9a5a-4d8d-b26b-1690a8bdd1c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "Simona"
+    }, {
+      "id": "1078d17c-647d-4d3b-a471-e9ae66223326",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e2b7daa-bfac-4265-bc84-510a06fcd640",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "vxe55292@nezid.com"
+    }, {
+      "id": "d668bd1b-6f69-4bab-af50-a79ada32a4cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5349a729-38e1-45b6-bd79-279db85ebed5",
+      "comment": "",
+      "command": "type",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "3456789"
+    }, {
+      "id": "6ab71244-6c96-4970-bc2c-13ded1377da6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-pd > .button",
+      "targets": [
+        ["css=.no-pd > .button", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "376bcb9e-936e-4ca8-9901-bdbbad3c3b9e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb9d581b-bd51-40ce-ac6b-6a13e74462cf",
+    "name": "TC7",
+    "commands": [{
+      "id": "46e6d1b6-3b4a-43a4-9406-21eb68ae03d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f201e79-4dbc-4377-8ceb-4eb87e1df1d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e71540b9-dc0b-439f-b99d-76636bb85d06",
+      "comment": "",
+      "command": "click",
+      "target": "css=rect:nth-child(2)",
+      "targets": [
+        ["css=rect:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1087b9-f155-4518-9ac5-6cbd291f9089",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons:nth-child(3) > .button",
+      "targets": [
+        ["css=.buttons:nth-child(3) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue shopping')]", "xpath:link"],
+        ["xpath=//div[@id='cartContainer']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[7]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e77b43-5e65-4a28-a3d1-ff3ca3fa5d2b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "797488db-cde1-4fde-9241-56f595ff8abc",
+    "name": "TC12",
+    "commands": [{
+      "id": "cfcd5533-0aca-4689-a390-c0e1751f6e99",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e82b81-cc58-4084-bbf8-c2a01fe1617f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94cbe474-7985-4dc0-b958-fabe9ddba8e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.womens > .level0 > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dba5238-c7d4-431b-b76a-2050fbb48e8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jackets & Coats",
+      "targets": [
+        ["linkText=Jackets & Coats", "linkText"],
+        ["css=.is-open .level2:nth-child(4) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Jackets & Coats')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/div/div/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/womens-animal-jackets-and-coats')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jackets & Coats')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73191cac-1133-4a4c-ad74-b6ddd6f4fe59",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15ab1ea-8a5e-40d7-9577-8810c1bdf2cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-button:nth-child(11)",
+      "targets": [
+        ["css=.filter-button:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div/ul/li[11]", "xpath:idRelative"],
+        ["xpath=//li[11]", "xpath:position"],
+        ["xpath=//li[contains(.,'Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a88be39-f7ac-4440-9a4d-f1ec1ef02126",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterConfirm",
+      "targets": [
+        ["id=filterConfirm", "id"],
+        ["css=#filterConfirm", "css:finder"],
+        ["xpath=//button[@id='filterConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='filterContainer']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "55bd642c-fd83-42ec-92c6-cf5efe6484dc",
+    "name": "TC13",
+    "commands": [{
+      "id": "2aee0ac5-23a0-4459-80ad-4ea8f07ce144",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08fc2239-8ea2-445f-a616-bdf42949c236",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97bd0bb1-f117-4ded-93c7-8206560cd447",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mens > .level0 > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d46e6366-9896-4119-9040-748e658cb786",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=T-Shirts & Shirts",
+      "targets": [
+        ["linkText=T-Shirts & Shirts", "linkText"],
+        ["css=.is-open .level2:nth-child(3) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'T-Shirts & Shirts')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/div/div/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/mens-tops')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'T-Shirts & Shirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f48f30d-1677-414d-9383-aa4b8eb3b7e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3af13e-14b9-4aba-ba70-93f2920dbb21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size > .filter-button:nth-child(3)",
+      "targets": [
+        ["css=.size > .filter-button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce36bb9c-7f08-4ab2-8479-fff159b3e86a",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterConfirm",
+      "targets": [
+        ["id=filterConfirm", "id"],
+        ["css=#filterConfirm", "css:finder"],
+        ["xpath=//button[@id='filterConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='filterContainer']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a91c5862-a840-4b72-b1aa-029c0c5efa20",
+    "name": "TC14",
+    "commands": [{
+      "id": "b134d565-b4ae-4335-a625-53ddb29cd1cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed3743c8-f5f8-44a1-bde3-a07b5b47ba35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "725a129d-c63f-4352-98a0-a842433fce96",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kids > .level0 > span",
+      "targets": [
+        ["css=.kids > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "875fd161-e12b-45e9-9626-9232b1f3b567",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trousers & Shorts",
+      "targets": [
+        ["linkText=Trousers & Shorts", "linkText"],
+        ["css=.is-open .level2:nth-child(5) > .level2", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trousers & Shorts')])[3]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[3]/div/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/kids-bottoms')]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c2ea3d8-67ea-4ee2-8a9d-5c45c03b9700",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99933192-7500-464f-aebe-9b24c388fa34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gender > .filter-button:nth-child(2)",
+      "targets": [
+        ["css=.gender > .filter-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[3]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Girls')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33712db-ae2f-4a69-93f7-3df06c58c97d",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterConfirm",
+      "targets": [
+        ["id=filterConfirm", "id"],
+        ["css=#filterConfirm", "css:finder"],
+        ["xpath=//button[@id='filterConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='filterContainer']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e6a708dd-9472-417b-b16b-f539f7150441",
+    "name": "TC15",
+    "commands": [{
+      "id": "df38cd3f-d485-4735-85be-a5ab139bd8bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8736cef0-5cee-4518-bed5-4c6cd7fb74f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b4c0327-b049-4436-8826-a3f7cd791aef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f470718-15cf-42ac-b8d8-04305d9b63a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dresses",
+      "targets": [
+        ["linkText=Dresses", "linkText"],
+        ["css=.is-open .level2:nth-child(5) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Dresses')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/div/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/womens-dresses')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20333dca-49d9-40c7-841b-e92cb624acc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sorter-title",
+      "targets": [
+        ["css=.sorter-title", "css:finder"],
+        ["xpath=//div[@id='sorter']/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb4b21e-ae2b-4bf8-9714-48c95c1b8b7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-button:nth-child(1) > span",
+      "targets": [
+        ["css=.filter-button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='sorter']/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New Arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b229a2b3-64cd-4ff0-a69e-b21a75174130",
+    "name": "TC16",
+    "commands": [{
+      "id": "1ec1b016-1185-447b-888a-021fcea5a7a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1de1ea3f-effd-4ec7-9760-f797d284bc0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cba53d5-9f56-4ab5-ab83-6fcc94ca10ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mens > .level0 > span",
+      "targets": [
+        ["css=.mens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "927eb1ad-7ca7-47a0-874d-135191c35eae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Swimwear",
+      "targets": [
+        ["linkText=Swimwear", "linkText"],
+        ["css=.is-open .level2:nth-child(6) > .level2", "css:finder"],
+        ["xpath=(//a[contains(text(),'Swimwear')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/div/div/div/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/mens-swimwear')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d298ba7-544f-4a67-8133-8f7a6cb91492",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//div[@id='sorter']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5684cb-b465-42a9-b8d7-ed96b92eebec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-button:nth-child(8) > span",
+      "targets": [
+        ["css=.filter-button:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='sorter']/ul/li[8]/span", "xpath:idRelative"],
+        ["xpath=//li[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Best Selling')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e0231709-2f17-4f0e-b259-68f29bb52985",
+    "name": "TC17",
+    "commands": [{
+      "id": "8b522936-dd5d-4ab6-9883-71f5e809c589",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b0443c1-ba53-45cf-904e-d0a0c323ad82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f222c0ea-5f31-4b74-b8ab-5d3739b4dade",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.snow > .level0 > span",
+      "targets": [
+        ["css=.snow > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe246e5d-ed7e-413a-87c2-dff3af4dca13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Snow Pants",
+      "targets": [
+        ["linkText=Snow Pants", "linkText"],
+        ["css=.is-open .level2:nth-child(3) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Snow Pants')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[4]/div/div/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/animal-snow-pants')]", "xpath:href"],
+        ["xpath=//li[4]/div/div/div/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Snow Pants')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe6f6be-27f1-4767-9b90-48a1089458b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//div[@id='sorter']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f435ac9-d8ed-4e19-ba8d-8c5409dd208f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-button:nth-child(5) > span",
+      "targets": [
+        ["css=.filter-button:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='sorter']/ul/li[5]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A-Z')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e3e0283-7e9d-4218-aaa6-2d040a4fe3b0",
+    "name": "TC18",
+    "commands": [{
+      "id": "9ac0bc15-9d01-4128-af81-6f83efb36602",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dde51547-1d95-4575-9182-c4740819b3ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa279e00-cf82-496c-853c-a9d2f158abe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e422e4a2-b795-4baf-8b75-4ccc70cb6a9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa268bd6-dab3-4b50-80ea-552ba7203c33",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5728fcf-40b4-4d70-970e-52715b2b4d1f",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "mtk79727@cdfaq.com"
+    }, {
+      "id": "147e3c7f-c471-4781-9fa6-3f34f11c5495",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a921b5-2e01-48f7-a466-f5378ba49ab3",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "7b87b857-7207-44c6-b4b0-f90443048f61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa118b95-9fa1-4302-948d-56ed568dbb41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'My Orders')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.animal.co.uk/account')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38d50cdc-730b-4e25-9763-5db7da6a20dc",
+    "name": "TC19",
+    "commands": [{
+      "id": "52016104-2f00-41b1-a9ba-4b79d2808035",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd5b481c-bcf5-47f9-957e-d6b89637b1a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a227702-f7c8-4bf8-9e1a-636218210831",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb8f835-58e5-4342-8b96-0c0e3b57e219",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "041d01ad-a9d8-4a26-9e40-3fb3275c664d",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c6a14b0-40e3-420b-90d1-3d8893fe5f2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "mtk79727@cdfaq.com"
+    }, {
+      "id": "7fc9498e-2ce9-4e2b-97fe-13f3b0592a41",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a199c338-e3bf-4052-a1f9-8cffa411f545",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "633794c8-a70f-41c9-8597-ff2cbb488f99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1560beb3-7432-4f41-b518-2eabe700805e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "33af1e4d-0654-4aae-8b1c-636dfe1fedc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa09f545-a4e4-4c09-9a91-295208026e97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b52d9130-e9ee-4633-a6f6-34031dfb37e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Order History",
+      "targets": [
+        ["linkText=Order History", "linkText"],
+        ["css=.row > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Order History')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b2e4f93d-8850-4f90-b1f8-702192af61e3",
+    "name": "TC20",
+    "commands": [{
+      "id": "6b7fe5a6-705d-4a01-b515-5b0c45fa81a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e3b5bd5-3032-4235-9c3f-3750f2e656f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7301cb6-c559-43f8-87f1-307ac2c5b6eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d590f033-2f74-460d-83ae-453d9457ecee",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a09406c-cfdd-4302-b77e-1bddbfe038e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9502afe-d3d9-4844-9211-008a0937c55e",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "mtk79727@cdfaq.com"
+    }, {
+      "id": "aba9dc33-194f-4790-bc11-9514afe59d16",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f866ced-e413-44a2-964c-e41b4f5f15bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "e47db50f-a338-48cb-87c7-49c34318ce84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e19f54ce-8e48-47b1-9f34-8e2e340c6bdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Address Book",
+      "targets": [
+        ["linkText=Address Book", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Address Book')])[2]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/account/addresses')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8db3287-162f-46eb-aa79-2a3d70e471da",
+    "name": "TC21",
+    "commands": [{
+      "id": "2384453a-49ba-4029-90f5-02af9d4060bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a608d05-2c09-4271-a366-eab20c256ba3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cb424c2-db21-48e3-a484-d80cb666ab52",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae842c7c-8e05-4a99-bce2-27dd8d609071",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8546bdd6-98ce-4c9f-b739-d8bad0ff32f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c0c0f8-1325-41df-b001-a65f6d1b9268",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "mtk79727@cdfaq.com"
+    }, {
+      "id": "ddd6467a-d63f-41eb-af0e-9c133fc7f0c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a76677-84b3-4b2c-b550-0717569b5079",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "75dabf2f-e4c4-4d41-8a30-3f6722342e5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9bb3a95-5a81-4d4d-8205-7ca6e00fc6a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Need Help?",
+      "targets": [
+        ["linkText=Need Help?", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Need Help?')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/pages/support')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Need Help?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1427e94f-c649-4000-8faf-a74d0281fc0e",
+    "name": "TC22",
+    "commands": [{
+      "id": "32cf0fad-4044-4eab-b037-1f1305abfeab",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3b2aef6-f7b0-4d77-965c-bd95929c4640",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4828db5-eee0-4c02-b1d9-5c7cc8ad4d93",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(2)",
+      "targets": [
+        ["css=circle:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f50e2c-b1df-4331-a771-e5e752631b69",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20c13264-a28f-4f7a-bc52-7957ed6351d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4219bd51-564c-47a0-a75c-4219affe9b51",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "mtk79727@cdfaq.com"
+    }, {
+      "id": "90220017-cf9f-4d77-b408-13ac3ef64cdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582d48ef-d666-4d7f-9125-9dc5b2983d2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "0605a25b-d437-457d-948b-4e00ebc743f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9571dcdb-0d38-4c33-9c9c-1660c4504f03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=ul:nth-child(3) #customer_logout_link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log Out')])[2]", "xpath:link"],
+        ["xpath=(//a[@id='customer_logout_link'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/logout')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1216932e-6349-4f69-8033-4697357cf966",
+    "name": "Bug1",
+    "commands": [{
+      "id": "e7313def-ed50-48d6-b952-e7f10bf3aab0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ae451af-bdf0-482e-b92e-b4b79bcc484e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6450014d-7fc1-41d2-8a0d-23e5bcd240ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f64d05d-171f-4098-98f1-7a8818873c11",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='searchContainer']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f70268-1532-47fc-9c26-ebb80770b06c",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='searchContainer']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "яке"
+    }, {
+      "id": "b57f3cbc-250a-47a3-bb7e-937bbf9b0c56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-icon:nth-child(4) path:nth-child(3)",
+      "targets": [
+        ["css=.button-icon:nth-child(4) path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b59ff4-5cda-4f4f-91cf-dfab0c4b4752",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.no-products",
+      "targets": [
+        ["css=.no-products", "css:finder"],
+        ["xpath=//div[@id='product-grid']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your search for \"яке*\" did not yield any results.')]", "xpath:innerText"]
+      ],
+      "value": "We searched high and low. Sorry, no matches found."
+    }]
+  }, {
+    "id": "eeb4314f-f13d-4bd5-8b09-21dc9f576b63",
+    "name": "Bug2",
+    "commands": [{
+      "id": "14c25b55-d914-4c16-b553-38ab047bab7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.animal.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6013fcc-a697-4129-a871-5e103958fe59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c6074cd-8bd8-4dbc-9ce0-fc24278676ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0069afd-a766-4ff4-acf5-0b31b6032f01",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#userToggle svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55b8dcb9-640f-411f-8b74-34854ad6bd61",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b12e25-a6f8-47dd-8f8e-38b06760c311",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b9f3159-f3f4-4c72-8b1d-6bf70eb935ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "Ивана Иванова"
+    }, {
+      "id": "6ba0b219-1055-4ec9-9b37-89ce128c4e4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5690192-f463-4858-a19d-cbeebc7d7727",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "dfw78554@cdfaq.com"
+    }, {
+      "id": "3c8fcee1-5172-404d-a4a3-929e66a27659",
+      "comment": "",
+      "command": "click",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e222c7-2668-4974-8685-30de58b74e13",
+      "comment": "",
+      "command": "type",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "ивана2345"
+    }, {
+      "id": "57f774b2-8c76-4eff-a15c-cb7d1b8b4f24",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=CreatePassword",
+      "targets": [],
+      "value": "Account cannot be created using cyrillic"
+    }, {
+      "id": "906e186b-d8b3-412a-aae3-0f6761789cc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-pd > .button",
+      "targets": [
+        ["css=.no-pd > .button", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a450b4-d2f7-4840-8376-36b5275257fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bb143e2a-162d-4ae0-be25-e36f99cb9e0d",
+    "name": "TastCases",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7f4df81-e27d-4ab4-b5e0-cf777611ead8", "76d68f9b-275b-4901-ac78-4fe989f21f39", "0487f4e2-5bc3-4a39-b034-48bdc11bad65", "eb9d581b-bd51-40ce-ac6b-6a13e74462cf", "797488db-cde1-4fde-9241-56f595ff8abc", "55bd642c-fd83-42ec-92c6-cf5efe6484dc", "a91c5862-a840-4b72-b1aa-029c0c5efa20", "e6a708dd-9472-417b-b16b-f539f7150441", "b229a2b3-64cd-4ff0-a69e-b21a75174130", "e0231709-2f17-4f0e-b259-68f29bb52985", "9e3e0283-7e9d-4218-aaa6-2d040a4fe3b0", "38d50cdc-730b-4e25-9763-5db7da6a20dc", "b2e4f93d-8850-4f90-b1f8-702192af61e3", "b8db3287-162f-46eb-aa79-2a3d70e471da", "1427e94f-c649-4000-8faf-a74d0281fc0e"]
+  }, {
+    "id": "c6cd5eca-bf45-41e3-ab88-ef4ffb659e80",
+    "name": "Bugs",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1216932e-6349-4f69-8033-4697357cf966", "eeb4314f-f13d-4bd5-8b09-21dc9f576b63"]
+  }],
+  "urls": ["https://www.animal.co.uk/"],
+  "plugins": []
+}
